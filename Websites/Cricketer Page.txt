@@ -1,0 +1,129 @@
+//HTML
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="stylea d-flex flex-row">
+        <div class="styleb">
+            <h1 class="stylec">K.L. Rahul</h1>
+            <p class="styled">Kannur Lokesh Rahul(born 18 April 1992),commonly known as KL Rahul,is an Indian International Cricketer who plays...more</p>
+        </div>
+        <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/klrahul-img1.png" />
+    </div>
+    <div class="stylee">
+        <h1 class="stylef"> IPL Records</h1>
+        <div class="styleg d-flex flex-row">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/klrahul-img2.png" />
+            <div class="styleh">
+                <h1 class="stylei">KXIP vs RCB</h1>
+                <p class="stylej">He scored an unbeaten 132 off just 69 balls against Royal Challengers Bangalore... more</p>
+            </div>
+        </div>
+        <h1 class="stylek">Videos</h1>
+        <div class="stlylel d-flex flex-row">
+            <div class="stylel d-flex flex-column">
+                <img class="stylem" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/klrahul-img3.png" />
+                <p class="stylen">KL Rahul hits 337 for Karnataka</p>
+            </div>
+            <div class="stylel d-flex flex-column">
+                <img class="stylem" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/klrahul-img4.png" />
+                <p class="stylen">Incredible Innings by KL Rahul</p>
+            </div>
+            <div class="stylel d-flex flex-column">
+                <img class="stylem" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/klrahul-img5.png" />
+                <p class="stylen">Single-handed win by KL Rahul</p>
+            </div>
+        </div>
+        <button class="btn btn-primary styleq">View more</button>
+    </div>
+</body>
+
+</html>
+
+
+//CSS
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.stylea {
+    background-color: #fb4e71;
+    padding: 10px;
+}
+
+.styleb {
+    color: #ffffff;
+}
+
+.stylec {
+    font-size: 28px;
+}
+
+.styled {
+    font-size: 12px;
+}
+
+.stylee {
+    background-color: #e6f6ff;
+    padding: 12px;
+}
+
+.stylef {
+    color: #323f4b;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.styleg {
+    background-color: #ffffff;
+    border-radius: 15px;
+}
+
+.styleh {
+    padding: 7px;
+}
+
+.stylei {
+    font-size: 15px;
+    color: #323f4b;
+}
+
+.stylej {
+    font-size: 13px;
+    color: #888888;
+}
+
+.stylek {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom: 12px;
+}
+
+.stylel {
+    margin: 3px;
+}
+
+.stylem {
+    height: 75px;
+    width: 88px;
+}
+
+.stylen {
+    font-weight: bold;
+    color: #323f4b;
+    font-size: 10px;
+}
+
+.styleq {
+    margin-left: 90px;
+}

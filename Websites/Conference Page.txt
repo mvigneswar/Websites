@@ -1,0 +1,136 @@
+//HTML 
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="sectiona">
+        <img class="styleaa" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/conference-img.png" />
+        <div class="styleab">
+            <h1 class="styleac">The Things Conference</h1>
+            <p class="stylead">Redefining the future of IoT with LoRaWAN</p>
+            <button class="styleae btn btn-primary" onclick="display('sectionb')">Know More</button>
+        </div>
+        <script type="text/javascript" src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+    </div>
+    <div id="sectionb" class="styleba">
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vKJ6nXE_6Hc" allowfullscreen></iframe>
+        </div>
+        <div class="stylebb">
+            <h1 class="stylebc">The Things Conference</h1>
+            <p class="stylebd">Join Asia's Largest Conference on LoRaWAN</p>
+            <div class="stylebe d-flex flex-column">
+                <div class="stylebf d-flex flex-row">
+                    <div class="stylebg d-flex flex-column">
+                        <p class="stylebh">1400+</p>
+                        <p class="stylebi">Attendees</p>
+                    </div>
+                    <div class="stylebg d-flex flex-column">
+                        <p class="stylebh">100+</p>
+                        <p class="stylebi">Workshops</p>
+                    </div>
+                </div>
+                <div class="stylebf d-flex flex-row">
+                    <div class="stylebg d-flex flex-column">
+                        <p class="stylebh">120+</p>
+                        <p class="stylebi">Speakers</p>
+                    </div>
+                    <div class="stylebg d-flex flex-column">
+                        <p class="stylebh">10+</p>
+                        <p class="stylebi">Countries</p>
+                    </div>
+                </div>
+            </div>
+            <button onclick="display('sectiona')" class="btn btn-primary stylebj">Back</button>
+        </div>
+    </div>
+</body>
+
+</html>
+
+//CSS
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.styleaa {
+    height: 45vh;
+    background-size: cover;
+    width: 100vw;
+    padding-bottom: 10px;
+}
+
+.styleab {
+    text-align: center;
+}
+
+.styleac {
+    font-size: 30px;
+    color: #183b56;
+    font-weight: bold;
+}
+
+.stylead {
+    font-size: 16px;
+    font-weight: bold;
+    color: #5a7184;
+}
+
+.styleae {
+    margin: 15px;
+}
+
+.styleba {
+    margin: 16px;
+    text-align: center;
+}
+
+.stylebb {
+    text-align: center;
+}
+
+.stylebc {
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #183b56;
+    margin: 12px;
+}
+
+.stylebd {
+    font-family: "Roboto";
+    font-size: 12px;
+    font-weight: bold;
+    color: #5a7184;
+}
+
+.stylebe {
+    margin: 5px;
+}
+
+.stylebg {
+    padding: 22px;
+    text-align: center;
+}
+
+.stylebh {
+    font-family: "Roboto";
+    font-size: 22px;
+    font-weight: bold;
+    color: #183b56;
+}
+
+.stylebi {
+    font-size: 16px;
+    font-family: "Roboto";
+    font-weight: bold;
+    color: #5a7184;
+}

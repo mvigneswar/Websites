@@ -1,0 +1,68 @@
+//HTML
+
+<!DOCTYPE html>
+<html>
+
+<head></head>
+
+<body>
+    <div class="background">
+        <h1 class="main">Rahul</h1>
+        <p class="btn-primary">Hello Rahul,how are you?</p>
+        <p class="btn-secondary">Hi Varakumar,I am good. How about you?</p>
+        <p class="btn-primary">I'm fine.I published my webiste recently</p>
+        <p class="btn-secondary">Oh great Varakumar!Can you send me the URL?</p>
+        <p class="btn-primary">https://varakumar.ccbp.tech</p>
+        <p class="btn-secondary">Awesome Varakumar,where did you learn?</p>
+        <p class="btn-primary">NxtWave CCBP 4.0 Program</p>
+    </div>
+</body>
+
+</html>
+
+//CSS
+
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.main {
+    background-color: #323f4b;
+    text-align: center;
+    color: #ffffff;
+    padding: 15px;
+    font-family: Roboto;
+    font-size: 20px;
+}
+
+.background {
+    background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/chatbg.png");
+    padding-bottom: 15px;
+
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.btn-primary {
+    background-color: #47a3f3;
+    color: #ffffff;
+    padding: 12px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 0px;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+.btn-secondary {
+    background-color: #52606d;
+    color: #ffffff;
+    padding: 12px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 10px;
+    text-align: left;
+    font-family: Roboto;
+    font-size: 12px;
+}
